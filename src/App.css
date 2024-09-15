@@ -15,7 +15,7 @@ form {
 }
 
 input {
-  width: 300px;
+  width: 100%;
   padding: 8px;
   font-size: 16px;
 }
@@ -37,4 +37,27 @@ button:hover {
   margin-top: 20px;
   font-size: 20px;
   color: #333;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-container {
+  flex: 1;
+}
+
+.result-container {
+  flex: 1;
+  padding-left: 20px;
+}
+
+.MuiPaper-root {
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+.MuiTypography-h4, .MuiTypography-h5 {
+  margin-bottom: 16px;
 }
